@@ -4,9 +4,18 @@ body {
 
 /* Styling for the Card */
 
-.card {
-    background-color: hsl(0, 0%, 100%);
-}
+.flex-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+  }
+  
+
+  .flex-container>section {
+    margin: 0;
+    width: 100%;
+    height: auto;
+  }
 
 h1 {
     color: hsl(212, 21%, 14%);
